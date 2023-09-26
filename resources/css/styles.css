@@ -647,11 +647,11 @@ main {
     }
 
     .main-vector {
-        visibility: none;
+        display: none;
     }
 
     .difference-vector {
-        visibility: none;
+        display: none;
     }
     
     #products-list {
