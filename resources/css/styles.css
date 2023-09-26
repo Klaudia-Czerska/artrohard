@@ -646,6 +646,10 @@ main {
         margin-right: 4rem;
     }
 
+    .main-vector {
+        visibility: none;
+    }
+    
     #products-list {
         grid-template-columns: repeat(3, 1fr);
     }
