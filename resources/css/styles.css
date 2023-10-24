@@ -37,6 +37,7 @@ header {
     justify-content: center;
     height: var(--header-height);
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 2;
 }
@@ -92,7 +93,7 @@ nav.mobile {
     justify-content: flex-start;
     min-height: 1750px;
     position: fixed;
-    right: 30svw;
+    right: 0;
     top: 0;
     width: 70svw;
     z-index: 5;
@@ -780,7 +781,7 @@ main {
 
 @media screen and (max-width: 400px) {
     #ingredients {
-        top: -180%;
+        top: -290%;
     }
 
     #product button {

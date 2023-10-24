@@ -48,7 +48,7 @@ window.addEventListener('scroll', () => {
 const loadData = document.querySelector('#dog');
 const options = {
     marginRoot: '0px',
-    threshold: 1
+    threshold: 0.5
 };
 let isLoaded = false;
 let pageSizeChanged = false;
